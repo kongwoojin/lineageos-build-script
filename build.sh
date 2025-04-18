@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Load .env
-set -a ; . ./.env ; set +a
-
 # Check if DEVICE and BRANCH are provided as arguments, otherwise set default values
 if [ -z "$1" ]; then
   echo "Error: Device codename not provided. Usage: ./build.sh <device> <branch>"
