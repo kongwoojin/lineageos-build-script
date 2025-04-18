@@ -26,6 +26,7 @@ WORKSPACE=$(pwd)  # Set workspace to the current directory
 JSON_FILE="$WORKSPACE/${DEVICE}.json"  # Path to the generated JSON file
 REMOTE_SERVER="$REMOTE_SERVER_SSH_URL"  # Remote server address
 REMOTE_USER="$REMOTE_SERVER_SSH_USER"  # SSH username
+OUT_DIR="$LOCAL_BUILD_OUT_DIR"  # Build output directory
 OTA_DIR="$REMOTE_SERVER_OTA_JSON_DIR"
 PATH="$HOME/bin:$PATH"
 
